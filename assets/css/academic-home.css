@@ -13,3 +13,43 @@
 @media(max-width:390px){.header-inner{padding:0 20px;gap:14px}.top-nav{gap:14px;font-size:11px}.page-shell{padding-left:20px;padding-right:20px}.intro h1{font-size:46px}.research-feature{grid-template-columns:1fr}.feature-copy{padding:24px 24px 0}.feature-copy h3 br{display:none}.feature-copy p{max-width:100%;font-size:12px}.network-panel{padding:5px 25px 20px}.network{max-height:200px}.network-caption{max-width:280px}.section-heading>.text-link{white-space:normal;text-align:right;max-width:65px}.academic-links{gap:16px}.experience-notes{grid-template-columns:1fr;gap:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 @media print{.site-header,.walk-toggle,.publication-filters,.intro-actions,.site-footer,.profile-note{display:none}.page-shell{padding:0;display:block}.profile{display:none}.section{break-inside:avoid;margin-bottom:26px}.publication{break-inside:avoid}.research-feature{background:white}.contact-section{background:white}body{font-size:11px;background:white}.paper-links{display:none}.main-content{max-width:none}}
+/* 字体：正文用 Arial，大标题用 Georgia */
+:root {
+  --sans: Arial, "Microsoft YaHei", sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+}
+
+/* 姓名 */
+.intro h1 {
+  font-size: 64px;
+}
+
+/* 开头的研究简介 */
+.intro-lead {
+  font-size: 19px;
+}
+
+/* 个人介绍和研究方向正文 */
+.intro-about,
+.research-item p {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* 论文标题 */
+.publication h3 {
+  font-size: 17px;
+}
+
+/* 论文作者和期刊名称 */
+.paper-authors,
+.paper-venue {
+  font-size: 14px;
+}
+
+/* 手机上的姓名字号 */
+@media (max-width: 760px) {
+  .intro h1 {
+    font-size: 44px;
+  }
+}
