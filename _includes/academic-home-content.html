@@ -4,7 +4,10 @@
   <div class="header-inner">
     <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Zilong Wang, home"><span class="monogram" aria-hidden="true">zw<span>.</span></span><span class="wordmark-name">Zilong Wang</span></a>
     <nav class="top-nav" aria-label="Main navigation">
-      <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#background">Background</a>
+      <a href="#about">About</a>
+<a href="#background">Education</a>
+<a href="#research">Research</a>
+<a href="#publications">Publications</a>
     </nav>
     <a class="header-contact" href="mailto:{{ site.author.email }}">Get in touch <span aria-hidden="true">↗</span></a>
   </div>
@@ -37,8 +40,14 @@
       <div class="intro-actions"><a class="button button-primary" href="#publications">Explore my work <span aria-hidden="true">↓</span></a><a class="text-link" href="{{ site.author.uri }}" target="_blank" rel="noopener noreferrer">LiU profile <span aria-hidden="true">↗</span></a></div>
     </section>
 
+    <section class="background-section section" id="background" aria-labelledby="background-title">
+      <div class="section-heading"><div><p class="section-kicker">01 / BACKGROUND</p><h2 id="background-title">Education & experience</h2></div></div>
+      <div class="education-list">{% for entry in home.education %}<article class="education-entry"><span class="timeline-dot" aria-hidden="true"></span><div><h3>{{ entry.degree }}{% if entry.field != '' %}<span> · {{ entry.field }}</span>{% endif %}</h3><p>{{ entry.institution }}</p></div>{% if entry.date != '' %}<span class="education-date">{{ entry.date }}</span>{% endif %}</article>{% endfor %}</div>
+      <div class="experience-notes"><div><h3>Research background</h3><p>{{ home.previous }}</p></div><div><h3>Teaching</h3><p>{{ home.teaching }}</p></div></div>
+    </section>
+    
     <section class="research-section section" id="research" aria-labelledby="research-title">
-      <div class="section-heading"><div><p class="section-kicker">01 / RESEARCH</p><h2 id="research-title">Learning across networks</h2></div><span class="section-side-note">Theory meets communication</span></div>
+      <div class="section-heading"><div><p class="section-kicker">02 / RESEARCH</p><h2 id="research-title">Learning across networks</h2></div><span class="section-side-note">Theory meets communication</span></div>
       <div class="research-feature">
         <div class="feature-copy"><span class="feature-tag">A WALK-BASED VIEW</span><h3>A model moves.<br>Local data stays.</h3><p>A shared model visits neighboring nodes and learns from local data, one update at a time.</p><button class="walk-toggle" type="button" aria-pressed="false" data-walk-toggle><span class="play-icon" aria-hidden="true">▶</span><span data-walk-label>Animate walk</span></button></div>
         <div class="network-panel">
@@ -65,7 +74,7 @@
     </section>
 
     <section class="publications-section section" id="publications" aria-labelledby="publications-title">
-      <div class="section-heading"><div><p class="section-kicker">02 / PUBLICATIONS</p><h2 id="publications-title">Selected work</h2></div><a class="text-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+      <div class="section-heading"><div><p class="section-kicker">03 / PUBLICATIONS</p><h2 id="publications-title">Selected work</h2></div><a class="text-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
       <div class="publication-filters" role="group" aria-label="Filter publications"><button type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="journal" aria-pressed="false">Journal</button><button type="button" data-filter="conference" aria-pressed="false">Conference</button><button type="button" data-filter="preprint" aria-pressed="false">Preprint</button></div>
       <div class="publication-list">{% for paper in home.publications %}
         <article class="publication" data-publication-type="{{ paper.type }}">
@@ -75,11 +84,6 @@
       {% endfor %}</div>
     </section>
 
-    <section class="background-section section" id="background" aria-labelledby="background-title">
-      <div class="section-heading"><div><p class="section-kicker">03 / BACKGROUND</p><h2 id="background-title">Education & experience</h2></div></div>
-      <div class="education-list">{% for entry in home.education %}<article class="education-entry"><span class="timeline-dot" aria-hidden="true"></span><div><h3>{{ entry.degree }}{% if entry.field != '' %}<span> · {{ entry.field }}</span>{% endif %}</h3><p>{{ entry.institution }}</p></div>{% if entry.date != '' %}<span class="education-date">{{ entry.date }}</span>{% endif %}</article>{% endfor %}</div>
-      <div class="experience-notes"><div><h3>Research background</h3><p>{{ home.previous }}</p></div><div><h3>Teaching</h3><p>{{ home.teaching }}</p></div></div>
-    </section>
 
     <section class="contact-section" id="contact" aria-labelledby="contact-title"><p class="section-kicker">LET'S CONNECT</p><h2 id="contact-title">Interested in a conversation?</h2><p>I'm happy to discuss decentralized learning, optimization, and wireless communication.</p><a href="mailto:{{ site.author.email }}">{{ site.author.email }} <span aria-hidden="true">↗</span></a></section>
   </main>
