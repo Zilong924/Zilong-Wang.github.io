@@ -21,23 +21,23 @@ supervisors:
   - name: Karl-Ludwig Besser
 research:
   - number: "01"
-    title: Walk-based decentralized learning
+    title: Communication-aware walk-based decentralized learning
     description: >-
-      Learning algorithms in which a model travels between neighboring nodes,
-      combining local updates with network-wide optimization.
-    tags: [Random walks, Incremental optimization]
+      Learning algorithms in which a model travels between neighboring nodes in the netowrks,
+      combining local updates with network-wide and communication-aware optimization.
+    tags: [Decentralized learning, Random walks, Incremental optimization, Communications]
+  # - number: "02"
+  #   title: Communication-aware optimization
+  #   description: >-
+  #     Understanding how link reliability and communication cost shape learning,
+  #     and designing network transitions with these constraints in mind.
+  #   tags: [Reliable communication, Resource efficiency]
   - number: "02"
-    title: Communication-aware optimization
+    title: Cell-free MIMO wireless transmission
     description: >-
-      Understanding how link reliability and communication cost shape learning,
-      and designing network transitions with these constraints in mind.
-    tags: [Reliable communication, Resource efficiency]
-  - number: "03"
-    title: Wireless systems & learning
-    description: >-
-      Optimization and learning methods for coordinated wireless transmission,
+      Optimization and learning-assisted methods for MIMO wireless transmission,
       with a background in cell-free MIMO and anti-jamming beamforming.
-    tags: [Cell-free MIMO, Deep unfolding]
+    tags: [Cell-free MIMO, Wireless transmission, Anti-jamming]
 education:
   - degree: PhD studies
     field: Electrical Engineering
