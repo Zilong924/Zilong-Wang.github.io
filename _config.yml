@@ -13,10 +13,10 @@ title                    : "Zilong Wang"
 title_separator          : "-"
 name                     : &name "Zilong Wang"
 description              : &description "Zilong Wang, PhD student at Linköping University. Research in communication-efficient decentralized learning, walk-based optimization, and wireless communication."
-url                      : "https://zilong924.github.io"
+url                      : "https://zilongwang924.github.io"
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "/Zilong-Wang.github.io"
-repository               : "Zilong924/Zilong-Wang.github.io"
+baseurl                  : "/zilongwang924.github.io"
+repository               : "Zilong924/zilongwang924.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
