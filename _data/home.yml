@@ -7,16 +7,15 @@ location: Linköping, Sweden
 intro: >-
   I study how learning and communication can work together across a network.
   My research focuses on communication-efficient decentralized learning,
-  particularly optimization methods driven by walks on graphs.
+  particularly decentralized learning optimization methods driven by walks on graphs.
 about: >-
   I am a PhD student in the Communication Systems division at Linköping
-  University, supervised by Erik G. Larsson and Karl-Ludwig Besser.
+  University, supervised by Prof. Erik G. Larsson and Dr. Karl-Ludwig Besser.
   Before joining LiU, I received my master's degree from Southeast University
   and my bachelor's degree from Nanjing University of Posts and Telecommunications.
 previous: >-
   My earlier work focused on anti-jamming transmission and hybrid beamforming
-  for cell-free millimeter-wave MIMO systems, including learning-assisted
-  optimization for coordinated beam pattern synthesis.
+  for cell-free millimeter-wave MIMO systems.
 supervisors:
   - name: Erik G. Larsson
   - name: Karl-Ludwig Besser
@@ -47,11 +46,11 @@ education:
   - degree: Master's degree
     field: Electronic Information
     institution: Southeast University, China
-    date: "2025"
+    date: "Sept. 2022 — Jun. 2025"
   - degree: Bachelor's degree
-    field: ""
+    field: Communication Engineering
     institution: Nanjing University of Posts and Telecommunications, China
-    date: ""
+    date: "Sept. 2018 — Jun. 2022"
 teaching: >-
   Alongside my research, I work as a teaching assistant in the Department
   of Electrical Engineering at Linköping University.
