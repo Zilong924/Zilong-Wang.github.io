@@ -1,0 +1,116 @@
+# Edit this file to update the homepage. Keep indentation consistent.
+role: PhD Student
+group: Communication Systems
+department: Department of Electrical Engineering (ISY)
+university: Linköping University
+location: Linköping, Sweden
+intro: >-
+  I study how learning and communication can work together across a network.
+  My research focuses on communication-efficient decentralized learning,
+  particularly optimization methods driven by walks on graphs.
+about: >-
+  I am a PhD student in the Communication Systems division at Linköping
+  University, supervised by Erik G. Larsson and Karl-Ludwig Besser.
+  Before joining LiU, I received my master's degree from Southeast University
+  and my bachelor's degree from Nanjing University of Posts and Telecommunications.
+previous: >-
+  My earlier work focused on anti-jamming transmission and hybrid beamforming
+  for cell-free millimeter-wave MIMO systems, including learning-assisted
+  optimization for coordinated beam pattern synthesis.
+supervisors:
+  - name: Erik G. Larsson
+  - name: Karl-Ludwig Besser
+research:
+  - number: "01"
+    title: Walk-based decentralized learning
+    description: >-
+      Learning algorithms in which a model travels between neighboring nodes,
+      combining local updates with network-wide optimization.
+    tags: [Random walks, Incremental optimization]
+  - number: "02"
+    title: Communication-aware optimization
+    description: >-
+      Understanding how link reliability and communication cost shape learning,
+      and designing network transitions with these constraints in mind.
+    tags: [Reliable communication, Resource efficiency]
+  - number: "03"
+    title: Wireless systems & learning
+    description: >-
+      Optimization and learning methods for coordinated wireless transmission,
+      with a background in cell-free MIMO and anti-jamming beamforming.
+    tags: [Cell-free MIMO, Deep unfolding]
+education:
+  - degree: PhD studies
+    field: Electrical Engineering
+    institution: Linköping University, Sweden
+    date: Dec. 2025 — present
+  - degree: Master's degree
+    field: Electronic Information
+    institution: Southeast University, China
+    date: "2025"
+  - degree: Bachelor's degree
+    field: ""
+    institution: Nanjing University of Posts and Telecommunications, China
+    date: ""
+teaching: >-
+  Alongside my research, I work as a teaching assistant in the Department
+  of Electrical Engineering at Linköping University.
+publications:
+  - id: comp-bps
+    year: "2026"
+    type: preprint
+    label: Preprint
+    title: "Coordinated Multipoint Anti-jamming Beam Pattern Synthesis: From AI Accelerated Algorithm to Hardware Implementation"
+    authors: "Zilong Wang, Cheng Zhang, Zhilei Zhang, Yaxuan Hu, Wen Wang, and Yongming Huang"
+    venue: arXiv:2604.23880
+    url: https://arxiv.org/abs/2604.23880
+    pdf: https://arxiv.org/pdf/2604.23880
+    bibtex: |
+      @misc{wang2026coordinated,
+        title = {Coordinated Multipoint Anti-jamming Beam Pattern Synthesis: From AI Accelerated Algorithm to Hardware Implementation},
+        author = {Wang, Zilong and Zhang, Cheng and Zhang, Zhilei and Hu, Yaxuan and Wang, Wen and Huang, Yongming},
+        year = {2026},
+        eprint = {2604.23880},
+        archivePrefix = {arXiv},
+        primaryClass = {eess.SP},
+        url = {https://arxiv.org/abs/2604.23880}
+      }
+  - id: icc-2026
+    year: "2026"
+    type: conference
+    label: Conference
+    title: Deep Unfolding Supported Cell-free Anti-jamming Coordinated Multipoint Beam Pattern Synthesis
+    authors: "Zilong Wang, Cheng Zhang, Zhilei Zhang, Wen Wang, and Yongming Huang"
+    venue: IEEE International Conference on Communications Workshops (ICC Workshops)
+    url: https://doi.org/10.1109/ICCWorkshops63917.2026.11586720
+    doi: 10.1109/ICCWorkshops63917.2026.11586720
+    bibtex: |
+      @inproceedings{wang2026deep,
+        title = {Deep Unfolding Supported Cell-free Anti-jamming Coordinated Multipoint Beam Pattern Synthesis},
+        author = {Wang, Zilong and Zhang, Cheng and Zhang, Zhilei and Wang, Wen and Huang, Yongming},
+        booktitle = {2026 IEEE International Conference on Communications Workshops (ICC Workshops)},
+        year = {2026},
+        pages = {1--6},
+        doi = {10.1109/ICCWorkshops63917.2026.11586720}
+      }
+  - id: wcl-2025
+    year: "2025"
+    type: journal
+    label: Journal
+    title: Anti-Jamming Transmission of Downlink Cell Free Millimeter-Wave MIMO System
+    authors: "Zilong Wang, Cheng Zhang, Changwei Zhang, and Yongming Huang"
+    venue: IEEE Wireless Communications Letters, 14(4), 954–958
+    url: https://doi.org/10.1109/LWC.2025.3528370
+    pdf: https://arxiv.org/pdf/2409.13261
+    doi: 10.1109/LWC.2025.3528370
+    bibtex: |
+      @article{wang2025antijamming,
+        title = {Anti-Jamming Transmission of Downlink Cell Free Millimeter-Wave MIMO System},
+        author = {Wang, Zilong and Zhang, Cheng and Zhang, Changwei and Huang, Yongming},
+        journal = {IEEE Wireless Communications Letters},
+        year = {2025},
+        volume = {14},
+        number = {4},
+        pages = {954--958},
+        doi = {10.1109/LWC.2025.3528370}
+      }

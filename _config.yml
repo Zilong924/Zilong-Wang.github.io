@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Zilong Wang / Site Title"
+title                    : "Zilong Wang"
 title_separator          : "-"
 name                     : &name "Zilong Wang"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://zilongwang924.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+description              : &description "Zilong Wang, PhD student at Linköping University. Research in communication-efficient decentralized learning, walk-based optimization, and wireless communication."
+url                      : "https://zilong924.github.io"
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/Zilong-Wang.github.io"
 repository               : "Zilong924/Zilong-Wang.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -23,10 +23,10 @@ repository               : "Zilong924/Zilong-Wang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "zilong-wang.jpg"
   name             : "Zilong Wang"
   pronouns         : "he/him"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD student in communication-efficient decentralized learning."
   location         : "Linköping, Sweden"
   employer         : "Linköping University"
   uri              : https://liu.se/en/employee/zilwa30
@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0009-0005-9266-9426"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -51,13 +51,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "Zilong924"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -302,7 +302,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Stockholm # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

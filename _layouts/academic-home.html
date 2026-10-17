@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.name | escape }} — {{ site.data.home.role | escape }}</title>
+    <meta name="description" content="{{ site.description | escape }}">
+    <meta name="theme-color" content="#f8f9f6">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="{{ site.name | escape }} — Academic Homepage">
+    <meta property="og:description" content="{{ site.description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ '/images/zilong-wang.jpg' | absolute_url }}">
+    <link rel="icon" href="{{ '/images/zw-mark.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}">
+    <script src="{{ '/assets/js/academic-home.js' | relative_url }}" defer></script>
+  </head>
+  <body>
+    {% include academic-home-content.html %}
+  </body>
+</html>
